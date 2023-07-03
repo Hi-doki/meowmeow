@@ -4,7 +4,7 @@ using System.Drawing.Imaging;
 
 // See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
-public static void pp(){
+void pp(){
     Rectangle size = Screen.GetBounds(Point.Empty);
     Bitmap cBitmap = new Bitmap(size.Width, size.Height, PixelFormat.Format32bppArgb);
     Rectangle cRectangle = Screen.AllScreens[0].Bounds;
