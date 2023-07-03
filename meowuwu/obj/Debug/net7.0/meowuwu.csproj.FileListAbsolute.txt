@@ -3,3 +3,13 @@
 /workspaces/meowmeow/meowuwu/obj/Debug/net7.0/meowuwu.AssemblyInfoInputs.cache
 /workspaces/meowmeow/meowuwu/obj/Debug/net7.0/meowuwu.AssemblyInfo.cs
 /workspaces/meowmeow/meowuwu/obj/Debug/net7.0/meowuwu.csproj.CoreCompileInputs.cache
+/workspaces/meowmeow/meowuwu/bin/Debug/net7.0/meowuwu
+/workspaces/meowmeow/meowuwu/bin/Debug/net7.0/meowuwu.deps.json
+/workspaces/meowmeow/meowuwu/bin/Debug/net7.0/meowuwu.runtimeconfig.json
+/workspaces/meowmeow/meowuwu/bin/Debug/net7.0/meowuwu.dll
+/workspaces/meowmeow/meowuwu/bin/Debug/net7.0/meowuwu.pdb
+/workspaces/meowmeow/meowuwu/obj/Debug/net7.0/meowuwu.dll
+/workspaces/meowmeow/meowuwu/obj/Debug/net7.0/refint/meowuwu.dll
+/workspaces/meowmeow/meowuwu/obj/Debug/net7.0/meowuwu.pdb
+/workspaces/meowmeow/meowuwu/obj/Debug/net7.0/meowuwu.genruntimeconfig.cache
+/workspaces/meowmeow/meowuwu/obj/Debug/net7.0/ref/meowuwu.dll
