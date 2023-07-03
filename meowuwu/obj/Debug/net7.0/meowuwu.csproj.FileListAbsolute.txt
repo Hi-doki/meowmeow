@@ -1,0 +1,5 @@
+/workspaces/meowmeow/meowuwu/obj/Debug/net7.0/meowuwu.csproj.AssemblyReference.cache
+/workspaces/meowmeow/meowuwu/obj/Debug/net7.0/meowuwu.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/meowmeow/meowuwu/obj/Debug/net7.0/meowuwu.AssemblyInfoInputs.cache
+/workspaces/meowmeow/meowuwu/obj/Debug/net7.0/meowuwu.AssemblyInfo.cs
+/workspaces/meowmeow/meowuwu/obj/Debug/net7.0/meowuwu.csproj.CoreCompileInputs.cache

@@ -227,6 +227,15 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
+      "System.Windows.Forms.Ribbon35/3.5.8": {
+        "type": "package",
+        "compile": {
+          "lib/net35/System.Windows.Forms.Ribbon35.dll": {}
+        },
+        "runtime": {
+          "lib/net35/System.Windows.Forms.Ribbon35.dll": {}
+        }
+      },
       "Woof.Core/2.2.0": {
         "type": "package",
         "compile": {
@@ -713,6 +722,19 @@
         "version.txt"
       ]
     },
+    "System.Windows.Forms.Ribbon35/3.5.8": {
+      "sha512": "eCT9IcJyU/NDrDA7Obp40Ata7hvPTVrtKjcofJe4LC/qjx7MNpOR0vNDfc5IDEzZi5bP5wGfJpVOWnnFeL2AUQ==",
+      "type": "package",
+      "path": "system.windows.forms.ribbon35/3.5.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Updates.txt",
+        "lib/net35/System.Windows.Forms.Ribbon35.dll",
+        "system.windows.forms.ribbon35.3.5.8.nupkg.sha512",
+        "system.windows.forms.ribbon35.nuspec"
+      ]
+    },
     "Woof.Core/2.2.0": {
       "sha512": "q2dZNtlw+8MSWDYmSbFfwEOCw/ENRU0nv4LzJClYyrtGUTweWpk9qCWup1kAuLiyVj+9A/AO68JXLsxMRuzSQA==",
       "type": "package",
@@ -742,6 +764,7 @@
     "net7.0": [
       "Discord.Net >= 3.11.0",
       "System.IO >= 4.3.0",
+      "System.Windows.Forms.Ribbon35 >= 3.5.8",
       "Woof.System >= 2.8.2"
     ]
   },
@@ -790,6 +813,10 @@
             "target": "Package",
             "version": "[4.3.0, )"
           },
+          "System.Windows.Forms.Ribbon35": {
+            "target": "Package",
+            "version": "[3.5.8, )"
+          },
           "Woof.System": {
             "target": "Package",
             "version": "[2.8.2, )"
@@ -816,6 +843,16 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Windows.Forms.Ribbon35 3.5.8' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Windows.Forms.Ribbon35",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

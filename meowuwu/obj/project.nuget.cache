@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "b7DGWKfQC4Y8ANvPN8upRraaIhAaEb7AyfhB0DGxZ9ng1I3cPlRlAStNL7RapTi4OJymSVI9pEAdZDEfJqPJ+w==",
+  "dgSpecHash": "OfpxuJm+cTBcfkId4zTxD2tXI2cVMn2tNsnKCOfnYq+wus6/okgM9wkbw3HalcwXmjggGO78UYVnS1YV6eGwUg==",
   "success": true,
   "projectFilePath": "/workspaces/meowmeow/meowuwu/meowuwu.csproj",
   "expectedPackageFiles": [
@@ -24,10 +24,21 @@
     "/home/codespace/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.windows.forms.ribbon35/3.5.8/system.windows.forms.ribbon35.3.5.8.nupkg.sha512",
     "/home/codespace/.nuget/packages/woof.core/2.2.0/woof.core.2.2.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/woof.system/2.8.2/woof.system.2.8.2.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Windows.Forms.Ribbon35 3.5.8' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Windows.Forms.Ribbon35",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

